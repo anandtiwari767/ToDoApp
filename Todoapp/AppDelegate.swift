@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Todoapp
 //
-//  Created by CTS-MACMINI-1 on 30/08/19.
+//  Created by Anand Tiwari on 30/08/19.
 //  Copyright © 2019 Cogitate Technology Solutions. All rights reserved.
 //
 
@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last as! String)
+//        print(NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).last as! String)
         return true
     }
 
